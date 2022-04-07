@@ -114,11 +114,11 @@ service:
   type: LoadBalancer
 
   # -- (string) Only applies when the service type is LoadBalancer. Load balancer will get created with the IP specified in this field.
-  loadBalancerIP: 0.0.0.0
+  loadBalancerIP: 
 
   # -- (list) If specified (and supported by the cloud provider), traffic through the load balancer will be restricted to the specified client IPs.
   # Valid values are IP CIDR blocks.
-  loadBalancerSourceRanges: [0.0.0.0]
+  loadBalancerSourceRanges: []
 
   ports:
     sftp:

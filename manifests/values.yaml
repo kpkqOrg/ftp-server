@@ -8,7 +8,7 @@ image:
   repository: us.gcr.io/handy-geography-341716/ftp-server
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "816134df66d20d15a51a7d3a012330348a77cac0"
 
 imagePullSecrets: []
 nameOverride: ""
